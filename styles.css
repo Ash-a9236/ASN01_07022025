@@ -119,11 +119,23 @@ nav {
 /*INTRO IMAGE//////////////////////////////////////////////////////////////////////////////////*/
 
 #IntroductionImageLeft {
-    margin: auto 65px;
-    /*size: 50%;*/
+    margin: auto auto auto 15rem;
+    border-radius: 30px;
+    padding: 15px 20px;
 
-    max-width: 50%;
-    height: auto;
+    float: left;
+    width: 50%;
+}
+
+#IntroductionPoem {
+    float: right;
+    width: 50%;
+}
+
+#IntroductionImgPoem:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
