@@ -1,0 +1,61 @@
+/*BASE BODY////////////////////////////////////////////////////////////////////////////////////*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+
+    font-family: "Bona Nova SC", serif;
+}
+
+/*HERO/////////////////////////////////////////////////////////////////////////////////////////*/
+heroImage {
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    position: relative;
+}
+
+/*NAV BAR//////////////////////////////////////////////////////////////////////////////////////*/
+
+nav {
+    display: flex;
+    background-color: #0C7075;
+
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin: 15px auto;
+    width: 90%;
+
+    justify-content: space-around;
+    align-items: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-family: "Bona Nova SC", serif;
+}
+
+.navMenu {
+    display: flex;
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.menuItem {
+    margin: 0 15px;
+}
+
+.menuItem > a {
+    text-decoration: none;
+    color: #fef5ec;
+    font-weight: bold;
+}
+
